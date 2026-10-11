@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "title": "Ethan Xie",
+    "description": "Personal site of Ethan Xie. Sink putts to open each section (or just open them at the bottom)."
+  },
+  "theme": {
+    "accent": "#f2b705",
+    "bg": "#e4ebe6",
+    "ink": "#17301f"
+  },
+  "profile": {
+    "name": "Ethan Xie",
+    "tagline": "Student at Yale University",
+    "summary": [
+      "Computer Sceice and Economics student at Yale University. I enjoy developing cool things and learning new ideas. I am also really excited and interested in all things AI from interpretability to performance. My hobbies include guitar, reading, pool, Counter Strike, and golf.",
+      "This site is a putting course. Each hole is a section: sink the putt to open it, or skip the game and read the sections directly."
+    ],
+    "links": [
+      { "label": "Email", "href": "mailto:ethan.xie@yale.edu" },
+      { "label": "GitHub", "href": "https://github.com/Anonymouseyy" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/xieethan" }
+    ]
+  },
+  "game": {
+    "maxStrokes": 8,
+    "intro": "Pull back from the ball and release to putt. Sink it to open the section."
+  },
+  "holes": [
+    {
+      "name": "About",
+      "par": 2,
+      "ball": { "x": 110, "y": 250 },
+      "cup": { "x": 650, "y": 250 },
+      "hills": [],
+      "sand": [],
+      "water": [],
+      "modal": {
+        "title": "About me",
+        "subtitle": "Based in New Haven, Connecticut, Orginally from Irvine, California",
+        "paragraphs": [
+          "I'm a student at Yale working toward a B.S. in Computer Science and Economics. I like building things end to end, from client websites to machine learning models written from first principles.",
+          "I co-founded a web studio that builds AI-enabled websites for small businesses, helped run hackathons with 250+ participants, and implemented a transformer and an autograd engine from scratch.",
+          "Skills: Python, PyTorch, scikit-learn, Pandas, NumPy, Next.js, Git, Chinese."
+        ],
+        "links": [{ "label": "Download résumé", "href": "/ethanxieresume.pdf" }]
+      }
+    },
+    {
+      "name": "Education",
+      "par": 2,
+      "ball": { "x": 110, "y": 380 },
+      "cup": { "x": 690, "y": 150 },
+      "hills": [{ "x": 400, "y": 260, "r": 120, "s": 110 }],
+      "sand": [],
+      "water": [],
+      "modal": {
+        "title": "Education",
+        "items": [
+          {
+            "title": "Yale University",
+            "meta": "Expected Jun 2030",
+            "description": "B.S. in Computer Science and Economics."
+          },
+          {
+            "title": "Tesoro High School",
+            "meta": "Graduated May 2026",
+            "description": "GPA 4.96/5.00 weighted, 4.00 unweighted. Scored 5 on 10 AP exams, including Calculus BC, Physics C: Mechanics and Computer Science A."
+          },
+          {
+            "title": "Awards and honors",
+            "description": "California Seal of Civic Engagement (2026). President's Volunteer Service Award, Gold (2022–2024). Tesoro Golf Coach's Award (2024). Tesoro Torch medals in AP Lang, AP Chemistry and AP CSA, plus the Science Department Plaque (2023–2026)."
+          },
+          {
+            "title": "Yale AI Alignment fellowship",
+            "meta": "Jul – Aug 2026",
+            "description": "Studied technical and conceptual problems in AI alignment, including misuse, outer alignment and mesa-optimization."
+          },
+          {
+            "title": "Yale Effective Altruism fellowship",
+            "meta": "Jul – Aug 2026",
+            "description": "Explored research on global health, AI safety, longtermism and cost-effectiveness through weekly discussions and readings."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Experience",
+      "par": 3,
+      "ball": { "x": 110, "y": 390 },
+      "cup": { "x": 690, "y": 120 },
+      "hills": [{ "x": 600, "y": 330, "r": 110, "s": -90 }],
+      "sand": [],
+      "water": [{ "x": 400, "y": 250, "rx": 80, "ry": 115 }],
+      "modal": {
+        "title": "Experience",
+        "subtitle": "A few things I have been up to",
+        "items": [
+          {
+            "title": "Co-Founder and Head of Technology, NGEX Webworks",
+            "meta": "Sep 2024 – May 2026",
+            "description": "Built AI-enabled websites for small businesses to improve customer engagement and online conversion. Generated over $5,000 in revenue from client projects.",
+            "tags": [
+              "Next.js",
+              "Entrepreneurship"
+            ]
+          },
+          {
+            "title": "Software Engineering and Community Management Intern, Treasure Hacks",
+            "meta": "Jan 2023 – May 2026",
+            "description": "Organized hackathons with 250+ participants and $80k+ in prizes. Developed a presentation game for teaching presentation skills, and built the website for an 8-hour in-person skills workshop with 60+ attendees.",
+            "tags": [
+              "MongoDB",
+              "Sockets"
+            ]
+          },
+          {
+            "title": "Recreation Leader, City of Laguna Niguel",
+            "meta": "Oct 2024 – May 2026",
+            "description": "Served seniors by providing refreshments and tech help, and managed third-party events such as weddings, birthday parties, religious group meetings and conferences."
+          },
+          {
+            "title": "Executive Lead, Tesoro IMPACT",
+            "meta": "Aug 2022 – May 2026",
+            "description": "Hosted and gave speeches at freshman orientation and homerooms for classes of 400+ students. Organized school-wide contests and food drives that donated 1,000+ cans to food pantries such as South Coast Outreach."
+          },
+          {
+            "title": "President, Tesoro Computer Science Club",
+            "meta": "Aug 2022 – May 2026",
+            "description": "Organized meetings and outreach events promoting computer science education, and helped 20+ members develop projects."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Projects",
+      "par": 4,
+      "ball": { "x": 110, "y": 250 },
+      "cup": { "x": 690, "y": 250 },
+      "hills": [{ "x": 620, "y": 250, "r": 80, "s": 100 }],
+      "sand": [{ "x": 300, "y": 250, "rx": 50, "ry": 90 }],
+      "water": [
+        { "x": 560, "y": 125, "rx": 110, "ry": 70 },
+        { "x": 560, "y": 375, "rx": 110, "ry": 70 }
+      ],
+      "modal": {
+        "title": "Projects",
+        "subtitle": "Built from scratch to understand how things work",
+        "items": [
+          {
+            "title": "Transformers",
+            "description": "A decoder-only transformer implemented from scratch in PyTorch, with multi-head self-attention, layer normalization and residual connections. Trained on character-level and text datasets to study how model size and hyperparameters affect results.",
+            "tags": [
+              "Python",
+              "PyTorch"
+            ],
+            "link": {
+              "label": "View on GitHub",
+              "href": "https://github.com/Anonymouseyy/transformers"
+            }
+          },
+          {
+            "title": "Autograd Engine",
+            "description": "A reverse-mode automatic differentiation engine in Python based on Karpathy's micrograd, with computational graphs, gradient propagation and backpropagation. Used it to train a convolutional neural network on MNIST.",
+            "tags": [
+              "Python",
+              "Calculus"
+            ],
+            "link": {
+              "label": "View on GitHub",
+              "href": "https://github.com/Anonymouseyy/micrograd"
+            }
+          },
+          {
+            "title": "Genetic Flappy Bird",
+            "description": "A Flappy Bird simulator with an integrated neural network that learns how to play it.",
+            "tags": [
+              "HTML, JS, CSS",
+              "Neural Networks"
+            ],
+            "link": {
+              "label": "View on GitHub",
+              "href": "https://github.com/Anonymouseyy/genetic-flappy-bird"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Contact",
+      "par": 3,
+      "ball": { "x": 100, "y": 120 },
+      "cup": { "x": 700, "y": 380 },
+      "hills": [
+        { "x": 300, "y": 210, "r": 90, "s": 120 },
+        { "x": 520, "y": 330, "r": 100, "s": -120 }
+      ],
+      "sand": [{ "x": 600, "y": 140, "rx": 70, "ry": 40 }],
+      "water": [],
+      "modal": {
+        "title": "Get in touch",
+        "paragraphs": [
+          "I'm open to interesting projects and work. Email is the best way to reach me, and I reply within a couple of days."
+        ],
+        "links": [
+          { "label": "hello@example.com", "href": "mailto:ethan.xie@yale.edu" },
+          { "label": "GitHub", "href": "https://github.com/Anonymosueyy" },
+          { "label": "LinkedIn", "href": "https://www.linkedin.com/in/xieethan" }
+        ]
+      }
+    }
+  ]
+}
