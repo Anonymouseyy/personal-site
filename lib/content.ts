@@ -24,6 +24,21 @@ export type SiteContent = {
   game: { maxStrokes: number; intro: string };
   holes: HoleContent[];
 };
+const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const withBase = (l: Link): Link =>
+  l.href.startsWith("/") ? { ...l, href: base + l.href } : l;
 
-export const site = data as unknown as SiteContent;
+const raw = data as unknown as SiteContent;
+export const site: SiteContent = {
+  ...raw,
+  profile: { ...raw.profile, links: raw.profile.links.map(withBase) },
+  holes: raw.holes.map((h) => ({
+    ...h,
+    modal: {
+      ...h.modal,
+      links: h.modal.links?.map(withBase),
+      items: h.modal.items?.map((it) => ({ ...it, link: it.link && withBase(it.link) })),
+    },
+  })),
+};
 export const HOLES = site.holes;
