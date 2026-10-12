@@ -12,7 +12,7 @@
     "name": "Ethan Xie",
     "tagline": "Student at Yale University",
     "summary": [
-      "Computer Sceice and Economics student at Yale University. I enjoy developing cool things and learning new ideas. I am also really excited and interested in all things AI from interpretability to performance. My hobbies include guitar, reading, pool, Counter Strike, and golf.",
+      "Computer Science and Economics student at Yale University. I enjoy developing cool things and learning new ideas. I am also really excited for and interested in all things AI from interpretability to performance. My hobbies include guitar, reading, pool, Counter Strike, and golf.",
       "This site is a putting course. Each hole is a section: sink the putt to open it, or skip the game and read the sections directly."
     ],
     "links": [
@@ -58,12 +58,12 @@
         "items": [
           {
             "title": "Yale University",
-            "meta": "Expected Jun 2030",
+            "meta": "Expected May 2030",
             "description": "B.S. in Computer Science and Economics."
           },
           {
             "title": "Tesoro High School",
-            "meta": "Graduated May 2026",
+            "meta": "Graduated June 2026",
             "description": "GPA 4.96/5.00 weighted, 4.00 unweighted. Scored 5 on 10 AP exams, including Calculus BC, Physics C: Mechanics and Computer Science A."
           },
           {
@@ -143,7 +143,7 @@
         { "x": 560, "y": 375, "rx": 110, "ry": 70 }
       ],
       "modal": {
-        "title": "Projects",
+        "title": "Selected Projects",
         "subtitle": "Built from scratch to understand how things work",
         "items": [
           {
@@ -172,7 +172,7 @@
           },
           {
             "title": "Genetic Flappy Bird",
-            "description": "A Flappy Bird simulator with an integrated neural network that learns how to play it.",
+            "description": "A Flappy Bird simulator with an integrated neural network that learns how to play it using genetic algorithms.",
             "tags": [
               "HTML, JS, CSS",
               "Neural Networks"
