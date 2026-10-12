@@ -202,7 +202,7 @@
           "I'm open to interesting projects and work. Email is the best way to reach me, and I reply within a couple of days."
         ],
         "links": [
-          { "label": "hello@example.com", "href": "mailto:ethan.xie@yale.edu" },
+          { "label": "Email", "href": "mailto:ethan.xie@yale.edu" },
           { "label": "GitHub", "href": "https://github.com/Anonymosueyy" },
           { "label": "LinkedIn", "href": "https://www.linkedin.com/in/xieethan" }
         ]
